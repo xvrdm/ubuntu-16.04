@@ -9,7 +9,7 @@ RUN apt-get install -y --no-install-recommends \
 RUN apt-get upgrade -y
 RUN apt-get install -y --no-install-recommends \
         software-properties-common build-essential \
-        libssl-dev libssh2-1-dev \
+        libcurl4-openssl-dev libssl-dev libssh2-1-dev \
         wget 
 
 ENV DEBIAN_FRONTEND=text
