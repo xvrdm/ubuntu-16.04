@@ -10,7 +10,7 @@ RUN apt-get upgrade -y
 RUN apt-get install -y --no-install-recommends \
         build-essential \
         libssl-dev libssh2-1-dev \
-        curl wget 
+        wget 
 
 ENV DEBIAN_FRONTEND=text
 CMD ["echo","hello"]
