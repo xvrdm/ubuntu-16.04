@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Xavier Adam <xvrdm@protonmail.com>
+MAINTAINER Xavier Adam <xaad@protonmail.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
