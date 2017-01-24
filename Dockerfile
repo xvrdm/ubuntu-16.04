@@ -8,7 +8,7 @@ RUN apt-get install -y --no-install-recommends \
         apt-utils
 RUN apt-get upgrade -y
 RUN apt-get install -y --no-install-recommends \
-        build-essential \
+        software-properties-common build-essential \
         libssl-dev libssh2-1-dev \
         wget 
 
