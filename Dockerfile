@@ -11,6 +11,7 @@ RUN apt-get install -y --no-install-recommends \
         software-properties-common build-essential \
         libcurl4-openssl-dev libssl-dev libssh2-1-dev \
         libxml2-dev \
+        libcairo2-dev \
         wget 
 
 ENV DEBIAN_FRONTEND=text
